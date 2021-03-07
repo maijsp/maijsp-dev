@@ -21,7 +21,7 @@ export default function ProjectCard(props) {
                 </div>
             </div>
             <div id="quote">
-                <p className=" text-gray-600 text-sm">{props.description}</p>
+                <p className=" text-gray-600 text-base">{props.description}</p>
             </div>
             <div className="mt-2" id="link items-center">
                 {

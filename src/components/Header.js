@@ -41,7 +41,9 @@ export default function Header() {
                         />
                     </h1>
                     <div className="flex flex-col mt-5 space-y-2 lg:flex-row lg:space-x-2 lg:space-y-0">
-                        <button className="px-8 py-3 rounded-lg bg-purple-600 hover:bg-purple-700 hover:shadow-lg font-bold text-white text-bold">SEE MY WORK</button>
+                        <button className="px-8 py-3 rounded-lg bg-purple-600 hover:bg-purple-700 hover:shadow-lg font-bold text-white text-bold">
+                            <a href="mailto:saranphon.pha@gmail.com">GET IN TOUCH</a>
+                        </button>
                         <button className="px-8 py-3 rounded-lg hover:bg-purple-200 hover:shadow-lg font-bold text-purple-700 border-solid border-2 border-purple-700 bg-white transition duration-500 ease-in-out">DOWNLOAD CV</button>
                     </div>
                 </div>
