@@ -1,5 +1,4 @@
 import React from 'react'
-import content from '../content';
 
 export default function ProjectCard(props) {
     const link = props.link;
