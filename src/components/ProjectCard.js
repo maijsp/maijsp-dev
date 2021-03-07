@@ -25,7 +25,7 @@ export default function ProjectCard(props) {
             </div>
             <div className="mt-2" id="link items-center">
                 {
-                    link != "" 
+                    link !== "" 
                     ?   <button className="text-blue-600 text-sm hover:bg-blue-100 rounded-md p-2 transition duration-500 ease-in-out">
                             <a className=""href={props.link}>Read more</a>
                             <svg className="ml-1 w-4 h-4 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
