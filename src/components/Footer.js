@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <div className="h-40 w-full flex flex-col justify-center bg-white items-center">
+        <div id="mycontact" className="h-40 w-full flex flex-col justify-center bg-white items-center">
             {/* Credit */}
             <div className="font-nunito text-gray-500">@2020 Designed & Built by Saranphon Phaithoon</div>
             {/* Social Medias */}

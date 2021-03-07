@@ -38,6 +38,7 @@ export default function Header() {
                             steps={content.header.typical}
                             loop={Infinity}
                             wrapper="p"
+                            className="text-lg"
                         />
                     </h1>
                     <div className="flex flex-col mt-5 space-y-2 lg:flex-row lg:space-x-2 lg:space-y-0">
