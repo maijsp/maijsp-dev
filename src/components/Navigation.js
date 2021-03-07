@@ -10,7 +10,7 @@ export default function Navigation() {
                 </h1>
                 <div>
                     {content.nav.links.map((link, ind) => {
-                        return <span key={ind} className="text-xl mr-4">{link.text}</span>
+                        return <a key={ind} className="text-xl mr-4" ref={link.to}>{link.text}</a>
                     })}
                 </div>
             </div>

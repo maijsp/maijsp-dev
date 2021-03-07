@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCard'
 
 export default function Project() {
     return (
-        <div className="h-full w-full p-10 flex flex-col items-center justify-center from-blue-600 to-purple-500 bg-gradient-to-r">
+        <div id="myproject" className="h-full w-full p-10 flex flex-col items-center justify-center from-blue-600 to-purple-500 bg-gradient-to-r">
             {/* Header */}
             <div className="font-nunito text-4xl font-bold text-white">
                 {content.project.title}

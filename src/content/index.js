@@ -3,7 +3,8 @@ export default {
     logo: 'MaiJsp',
     links: [
       { text: 'About', to: 'mywork' },
-      { text: 'Contact', to: 'mycontact' },
+      { text: 'Project', to: 'myproject'},
+      { text: 'Contact', to: 'mycontact' }
     ],
   },
   header: {
