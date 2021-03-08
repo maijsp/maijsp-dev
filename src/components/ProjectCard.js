@@ -4,7 +4,7 @@ export default function ProjectCard(props) {
     const link = props.link;
 
     return (
-        <div style={{height: "18rem", width: "20rem"}} className="max-w-sm bg-white p-6 rounded-lg shadow-lg font-nunito relative">
+        <div style={{height: "20rem", width: "18rem"}} className="max-w-sm bg-white p-6 rounded-lg shadow-lg font-nunito relative">
             <div id="header" className="flex items-center">
                 <div className="leading-5">
                     <h4 id="name" className="text-2xl font-bold leading-7">{props.name}</h4>
